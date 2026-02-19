@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import ActivityGallery from "@/components/ActivityGallery";
 import Footer from "@/components/Footer";
+import Pricing from "@/components/Pricing.tsx";
 
 const Index = () => {
   return (
@@ -9,6 +10,7 @@ const Index = () => {
       <Header />
       <Hero />
       <ActivityGallery />
+        <Pricing />
       <Footer />
     </div>
   );
